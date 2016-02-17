@@ -1,0 +1,15 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+:-moz-handler-clicktoplay .mainBox:hover {
+  background-color: rgb(142,142,142) !important;
+}
+:-moz-handler-clicktoplay .mainBox:hover:active {
+  background-color: rgb(107,107,107) !important;
+}
+:-moz-handler-clicktoplay .hoverBox:hover,
+:-moz-handler-clicktoplay .hoverBox:hover a {
+  color: rgb(0,0,0) !important;
+}
+:-moz-handler-clicktoplay .hoverBox:hover:active,
+:-moz-handler-clicktoplay .hoverBox:hover:active a {
+  color: rgb(200,200,200) !important;
+}

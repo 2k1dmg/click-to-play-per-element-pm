@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>click-to-play-per-element@2k1dmg.org</em:id>
+		<em:version>0.1.0</em:version>
+		<em:name>Click to Play per-element (PM)</em:name>
+		<em:creator>2k1dmg</em:creator>
+		<em:description>Click to Play per-element (Pale Moon).</em:description>
+		<em:type>2</em:type>
+		<em:bootstrap>true</em:bootstrap>
+		<!-- Pale Moon -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</em:id>
+				<em:minVersion>24.0</em:minVersion>
+				<em:maxVersion>26.*</em:maxVersion>
+			  </Description>
+		</em:targetApplication>
+	</Description>
+</RDF>
